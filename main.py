@@ -9,17 +9,17 @@ print('''
 ╚██████╔╝██║░░██║███████╗░░░░░░██████╔╝██║░░██║╚█████╔╝██║░░██║░░░██║░░░██║░╚███║███████╗██║░░██║
 ░╚═════╝░╚═╝░░╚═╝╚══════╝░░░░░░╚═════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚══╝╚══════╝╚═╝░░╚═╝
 
-                                                    <---[ by HackerSM9 ]--->
+                                             <---[ by HackerSM9 ]--->
 ''')
 print("1) Short-URL/LINK\n2) More Tools\n3) About\n00) EXIT\n\n")
 url = int(input("\033[1;36m\n >> Enter your Choice: \033[0m"))
-if (url == 1 || url == 01):
-os.system("cd .src && python3 .magic.py")
-if (url == 2 || url == 02):
-os.system("xdg-open https://GitHub.com/HackerSM9")
-if (url == 3 || url == 03):
-os.system("cd .src && python3 .about.py")
-if (url == 0 || url == 00):
-os.system("logout || exit")
-if (url >= 3 || url >= 03):
-print("Invalid Option Ó╭╮Ò")
+if (url == 1):
+    os.system("cd .src && python3 .magic.py")
+if (url == 2):
+    os.system("xdg-open https://GitHub.com/HackerSM9")
+if (url == 3):
+    os.system("cd .src && python3 .about.py")
+if (url == 0):
+    os.system("logout || exit")
+if (url >= 3):
+    print("Invalid Option Ó╭╮Ò")
