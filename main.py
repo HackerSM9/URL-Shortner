@@ -11,7 +11,7 @@ print('''
 
                                              <---[ by HackerSM9 ]--->
 ''')
-print("1) Short-URL/LINK\n2) More Tools\n3) About\n00) EXIT\n\n")
+print("1) Short-URL/LINK\n2) More Tools\n3) About\n0) EXIT\n\n")
 url = int(input("\033[1;36m\n >> Enter your Choice: \033[0m"))
 if (url == 1):
     os.system("cd .src && python3 .magic.py")
