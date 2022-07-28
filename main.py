@@ -25,6 +25,6 @@ if (url == 3):
 if (url == 0):
     os.system("logout || exit")
 elif (url >= 4):
-     print("Invalid Option Ó╭╮Ò")
+     print(r+"Invalid Option Ó╭╮Ò"+e)
 else:
      print("\033[1;46mDone !\033[0m")
