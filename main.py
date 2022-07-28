@@ -21,7 +21,7 @@ if (url == 3):
     os.system("cd .src && python3 .about.py")
 if (url == 0):
     os.system("logout || exit")
-elif (url >= 3):
+elif (url >= 4):
      print("Invalid Option Ó╭╮Ò")
 else:
      print("\033[1;46mDone !\033[0m")
