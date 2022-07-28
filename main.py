@@ -11,4 +11,5 @@ print('''
 
                                                     <---[ by HackerSM9 ]--->
 ''')
-  
+print("1) Short-URL/LINK\n2) More Tools\n3) About\n0) EXIT\n\n")
+if 
