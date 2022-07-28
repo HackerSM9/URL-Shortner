@@ -1,2 +1,2 @@
 # URL-Shotner
-URL-Shotner in Termux using TinyURL.com
+URL-Shortner in Termux using TinyURL.com
