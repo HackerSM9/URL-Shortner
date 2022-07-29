@@ -1,9 +1,10 @@
 import os,sys
 
-r = ''
-g = ''
-y = ''
-b = ''
+r = '\033[0m'
+g = '\033[0m'
+y = '\033[0m'
+b = '\033[0m'
+e = '\033[0m'
 
 print("")
 url = input("[?] Enter Full URL Address: ")
