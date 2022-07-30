@@ -14,7 +14,6 @@ cd URL-Shortner
 chmod +x *
 cd $HOME
 cd URL-Shortner
-python3 setup.py
 clear
 echo "
 ██████╗░░█████╗░███╗░░██╗███████╗
