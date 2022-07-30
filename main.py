@@ -37,3 +37,4 @@ elif (url >= 5):
     print(r+"Invalid Option Ó╭╮Ò"+e)
 else:
     print("\033[1;46mDone !\033[0m")
+    print("\n")
