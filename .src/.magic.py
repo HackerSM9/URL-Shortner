@@ -1,12 +1,3 @@
-import os,sys
-
-e = '\033[0m'
-q = '\033[0;33m[\033[1;31m?\033[0;33m]\033[0m'
-i = '\033[0;33m[\033[0;32m!\033[0;33m]\033[0m'
-
-print("")
-url = input(q+" Enter Full URL Address: ")
-print("")
-print(i+" Your Link is Ready: \033[1;34m ", end = "", flush = True)
-os.system("curl https://tinyurl.com/api-create.php?url={0}".format(url))
-print(e+"\n")
+import base64,codecs
+main = "aW1wb3J0IG9zLHN5cwoKZSA9ICdcMDMzWzBtJwpxID0gJ1wwMzNbMDszM21bXDAzM1sxOzMxbT9cMDMzWzA7MzNtXVwwMzNbMG0nCmkgPSAnXDAzM1swOzMzbVtcMDMzWzA7MzJtIVwwMzNbMDszM21dXDAzM1swbScKCnByaW50KCIiKQp1cmwgPSBpbnB1dChxKyIgRW50ZXIgRnVsbCBVUkwgQWRkcmVzczogIikKcHJpbnQoIiIpCnByaW50KGkrIiBZb3VyIExpbmsgaXMgUmVhZHk6IFwwMzNbMTszNG0gIiwgZW5kID0gIiIsIGZsdXNoID0gVHJ1ZSkKb3Muc3lzdGVtKCJjdXJsIGh0dHBzOi8vdGlueXVybC5jb20vYXBpLWNyZWF0ZS5waHA/dXJsPXswfSIuZm9ybWF0KHVybCkpCnByaW50KGUrIlxuIik="
+magic = eval(compile(base64.b64decode(eval('\x6d\x61\x69\x6e')),'\x3c\x73\x74\x72\x69\x6e\x67\x3e','\x65\x78\x65\x63'))
