@@ -1,5 +1,14 @@
 # URL-Shortner
 URL-Shortner in Termux using TinyURL.com
+## Installation
+```
+cd $HOME 
+pkg install git
+pkg install python3
+git clone https://github.com/HackerSM9/URL-Shortner
+cd URL-Shortner
+python3 setup.py
+```
 ### Usage
 1) **Short URL/LINK** [ To Shorten the URL/Link ]
 2) **More tools** [ More tools for Termux ]
