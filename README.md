@@ -1,5 +1,5 @@
 # URL-Shortner
-URL-Shortner in Termux using TinyURL.com
+URL-Shortner in Termux using python3.
 ## Installation
 ```
 cd $HOME 
