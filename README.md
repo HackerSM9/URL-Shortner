@@ -1,7 +1,7 @@
 # URL-Shortner
 URL-Shortner in Termux using python3.
 ## Installation
-```
+```shell
 cd $HOME 
 pkg install git
 pkg install python3
